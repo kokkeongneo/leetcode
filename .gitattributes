@@ -1,0 +1,20 @@
+# Enforce LF line endings and UTF-8 encoding
+* text=auto eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Treat shell scripts as binary to preserve executable flag (optional)
+*.sh text eol=lf
+
+# Prevent carriage return in Makefiles
+Makefile text eol=lf
+
+# Prevent IDE/editor artifacts
+*.bak binary
+*.swp binary
+*.tmp binary
